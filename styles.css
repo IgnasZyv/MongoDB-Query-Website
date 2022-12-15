@@ -1,0 +1,75 @@
+form {
+  font-size: 1.5em;
+}
+
+.center-div {
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-primary {
+  /* margin: 0 auto; */
+  display: block;
+}
+
+.search-container {
+  margin: 2em 3em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input,
+.search-container select {
+  margin: 0.5em 0;
+  max-width: 50%;
+}
+
+/* single-row column design */
+tr {
+  /* display: table-column; */
+  float: left;
+}
+
+table {
+  /* display: table; */
+  width: 90%;
+  /* overflow: scroll; */
+  overflow-x: scroll;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 200px;
+  height: 50px;
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 50px;
+  min-height: 50px;
+  overflow: hidden;
+}
+
+td {
+  /* width: 100px; */
+}
+
+#data {
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.options {
+}
