@@ -11,7 +11,7 @@ $columns = include_once "getColumns.php";
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initMap">
     </script> -->
     <script>
     var locations;
